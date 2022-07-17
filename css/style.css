@@ -302,7 +302,7 @@ body{
     gap: 1.5em;
 }
 
-.footer__media{
+.footer__media {
     border: 1px solid #fff;
     width: 35px;
     height: 35px;
@@ -404,16 +404,17 @@ width: 160px;
 
 
 .productive__cta {   
-    margin: 2em auto 3em;
+    margin: 2em 0 3em;
 }
 
+.productive__cta:hover {
+    cursor: pointer;
+}
 
 .productive__testimony {    
     max-width: 420px;
     margin: 2px;
 }
-
-
 
 .newsletter__container {
     display: flex;
@@ -445,8 +446,6 @@ width: 160px;
     padding: 1em 2em;
 }
 
-
-
 .footer__container{
     flex-wrap: wrap;
     flex-direction: row;
@@ -464,13 +463,22 @@ width: 160px;
     gap: 1em;
 }
 
+.footer__social{    
+    margin: 0;    
+}
 
-
-.footer__social{
-    
-    margin: 0;
-    
+.footer__link:hover { 
+    text-decoration: none;
+    color: var(--desaturated-blue);
 }
 
 
+/* ACTIVE STATES */
+
+.button:hover {
+    cursor: pointer;
+    background-color: hsl(224, 93%, 70%);
+    box-shadow:  0 10px -5px rgb(0,0,0, .5);
+
+}
 }
