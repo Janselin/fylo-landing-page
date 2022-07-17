@@ -317,6 +317,14 @@ body{
     margin: auto;
 }
 
+.footer__attribution { 
+    font-size: 1em; 
+    text-align: center; 
+}
+
+/* .footer__attribution a { 
+    color: var(--light-gray)
+ } */
 
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
