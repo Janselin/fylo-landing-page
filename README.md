@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 
 ### Links
@@ -47,7 +47,7 @@ Users should be able to:
 
 ### What I learned
 
-On tis project I've learned many new things🥳:
+On this project I've learned many new things🥳:
 
 First time making a website mobile.
 First time using custom properties!
