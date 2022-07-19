@@ -106,7 +106,7 @@ body{
     height: 45px;
     border-radius: 6px;
     border: 1px solid var(--very-dark-blue);
-    width: 100%;
+    width: 70%;
     font: inherit;
     padding: 0 20px;
     font-family: var(--font2);
@@ -226,7 +226,7 @@ body{
     width: 80%;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1em;
     margin-top: 2em;
 }
@@ -251,15 +251,24 @@ body{
 
 .input--message {
     display: none;
+    color: #c8395f;
+    /* margin-top: 6px; */
 }
-.input--invalid:invalid {
+
+.hero__input:not(:focus):not(:placeholder-shown):invalid ~ .input--message {
+    display: inline-block;
+  }
+
+
+.input--invalid:invalid {    
+    border: 2px solid #c8395f;
     
-    border: 2px solid red;
-}
-/* FOOTER */
+} 
+
+    /* FOOTER */
 
 
-.footer{
+.footer {
     background-color: var(--very-dark-blue);
     color: #fff;
 
@@ -364,24 +373,25 @@ body{
 
 .hero_title {
     font-size: 2.3rem;
-   margin-top: 0;
+    margin-top: 0;
 }
 
 .hero__contact{
     display: flex;
     gap: 1em;
+    flex-wrap: wrap;
 }
 
 .hero__input {
-  min-width: 160px;
-flex-grow: 1;
+    min-width: 160px;
+    flex-grow: 1;
 }
 
 .hero__input--cta {
 
-margin-top: 0;
-flex-grow: 0;
-width: 160px;
+    margin-top: 0;
+    flex-grow: 0;
+    width: 160px;
 }
 
 
