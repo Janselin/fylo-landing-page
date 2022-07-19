@@ -249,6 +249,9 @@ body{
     border: none;
 }
 
+.input--message {
+    display: none;
+}
 .input--invalid:invalid {
     
     border: 2px solid red;
