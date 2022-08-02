@@ -376,13 +376,20 @@ justify-items: center;
     border-radius: 50%;
     text-decoration: none;
     display: flex;
+    
 }
 
-.footer__img {
-    width: 20px;
-    height: 20px;
-    margin: auto;
+.footer__media:hover { 
+border-color: var(--desaturated-blue);
 }
+
+.footer__img {   
+    margin: auto;
+    fill: #fff;
+
+    
+}
+
 
 .footer__attribution { 
     font-size: 1em; 
@@ -586,6 +593,12 @@ justify-items: center;
     background-color: hsl(224, 93%, 70%);
     box-shadow:  0 10px -5px rgb(0,0,0, .5);
 }
+
+
+.footer__img:hover {
+    fill: var(--desaturated-blue);
+}
+
 
 
 }
