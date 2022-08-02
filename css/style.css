@@ -143,11 +143,6 @@ body{
     justify-self: start;
 } 
 
-.input--invalid:invalid {    
-    border: 2px solid #c8395f;
-    
-} 
-
 
 
 /* PRODUCTIVE */

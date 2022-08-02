@@ -42,7 +42,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
+- Mobile-first 
 - BEM
 
 ### What I learned
@@ -51,11 +51,12 @@ On this project I've learned many new things🥳:
 
 First time making a website mobile.
 First time using custom properties!
+Added email validation message with pure CSS!
 
 
 ### Continued development
 
-I still have to add the email validation message.
+I still have to add the email validation message. ✅
 And change the color of the svg when on :hover
 
 
